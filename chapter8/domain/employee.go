@@ -16,6 +16,6 @@ type Employee struct {
 	Position    Position
 	Salary      float64
 	Joined      string
-	OnProbation []uint8
+	OnProbation bool
 	CreatedAt   string
 }
